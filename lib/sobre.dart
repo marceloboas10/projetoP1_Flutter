@@ -21,15 +21,7 @@ class _SobreState extends State<Sobre> {
             mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
               Image.asset('lib/imagens/marcelo.jpg', height: 169,),
-              TextFormField(
-                autofocus: true,
-                keyboardType: TextInputType.multiline,
-                style: new TextStyle(color: Colors.white, fontSize: 20),
-                decoration: InputDecoration(
-                  icon: Icon(Icons.people),
-                  labelText: "Usuário",
-                  labelStyle: TextStyle(color: Colors.white)),
-                ),
+              Text('Marcelo Henrique Vilas Boas')
             ],
         
           ),
